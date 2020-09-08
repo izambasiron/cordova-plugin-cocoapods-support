@@ -6,7 +6,7 @@ var path = require("path");
 var xml2js = require('xml2js');
 var spawn = require('child_process').spawn;
 var parser = new xml2js.Parser();
-var Q = require('q');
+var Q = require('./q');
 var semver = require('semver');
 require('shelljs/global');
 
